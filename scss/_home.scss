@@ -1,0 +1,865 @@
+//
+// menu.scss
+//
+
+body, html {
+      display : block ;
+      box-sizing : border-box ;
+      margin :0px ;
+      padding : 0px ;
+}
+
+.section {
+         box-sizing : border-box ;
+         margin :0px ;
+         padding : 0px ;
+         height: 750px;
+}
+
+.container{
+        height : 600px ;
+        
+        width: 50%;
+        float: left; 
+}
+
+.logo1 {
+        display: flex;
+	height: 60px;
+        width: 60px ;
+        float : left ;
+        position : absolute ;
+        padding-left: 10px ;
+        padding-top: 10px ;
+        
+}
+
+.logo {
+        display: flex;
+	height: 60px;
+        width: 60px ;
+        float : left ;
+        position : relative ;
+        padding-left: 10px ;
+        padding-top: 10px ;
+        
+}
+
+.container > p {
+	white-space: nowrap;
+	display: flex;
+	font-weight: bold;
+	margin-left: 15px;
+        
+}
+
+.container1 {
+        width: 50%;              
+        height: 600px ;
+        float : left ;
+        position : relative ;
+        
+        
+}
+
+.sphere {
+        height: 600px;
+        width:600px ;
+        top: -180px;
+        left : 650px ;
+        border-radius: 300px 0px 300px 300px ;
+        background-color: #FF0000 ;
+        left: 100px ;
+        float : left ;
+        position : absolute ;
+        
+}
+
+
+
+.sectionone {
+        box-sizing : border-box ;
+        margin :0px ;
+        padding : 0px ;
+        height: 750px;
+        background-color: #FFFAFA ;
+     
+}
+
+
+.container2 {
+        width: 50%;
+        float: left;
+        height:750px ;
+}
+
+
+.container3 {
+        width: 50%;
+        float: left;
+        position: relative;
+        height:645px ;
+        padding-top: 105px
+}
+
+
+.imagecontainer1 {
+        padding-left: 121px;
+        padding-top: 50px;
+        position: relative ;
+}
+
+
+.image1 {
+        position: relative;
+        top: 0;
+        left: 0;
+}
+
+.image2 {
+        position: absolute;
+        top: 100px;
+        left: 230px;
+}
+
+.subheader{
+        
+        width: 196px;
+        height: 28px;
+        color: #1F2933;
+}
+
+.list{
+        
+        width: 380px;
+        height: 190px;
+        color: #1F2933;
+
+}
+
+li {
+        font-size: 20px;
+        line-height: 35px;
+        
+
+}
+
+
+.sectiontwo {
+        box-sizing : border-box ;
+        margin :0px ;
+        padding : 0px ;
+        height: 1600px;
+        
+     
+}
+
+.container4{
+        width: 50%;
+        float: left;
+        height:600px ;
+        
+       
+        
+}
+ 
+.subcontainer4{
+padding-left: 100px ;
+padding-top: 200px ;
+}
+
+.container5{
+        width: 50%;
+        float: left;
+        height:600px ;
+        position : relative ;
+        padding-top : 100px ;
+       
+}
+
+.subword{
+        color: #FF0000;
+
+}
+
+.block{
+        width: 300px;
+        font-size: 20px;
+        line-height: 36px;
+        font-family: SF Pro Text;
+        font-style: normal;
+        font-weight: normal;
+        color: #1F2933;
+}
+
+.subcontainer5{
+       
+        padding-left: 100px ;
+        
+        
+}
+
+.image5{
+        position: relative ;
+        padding-top : 100 ;
+        
+}
+
+.image6{
+        position: absolute ;
+        top: 400px ;
+        left: 0px ;
+        
+}
+
+.image13{
+        position: absolute ;
+        top: 450px ;
+        left: 50px ;
+        
+}
+
+.image3{
+        position: relative ;
+        top: 0;
+        left: 0;
+}
+
+
+.image4{
+        position: absolute;      
+        left: 200px ;
+}
+
+.storecontainer{
+        position : relative ;
+
+}
+
+.container6 {
+        width : 100% ;
+        float : left ;
+        height : 600px
+}
+
+.subcontainer6{
+        padding-top: 50px ;
+        position: relative ;
+}
+
+
+.image7{
+        position: relative ;
+        top: 0;
+        left: 0;
+}
+
+.image8{
+        position: absolute;
+        top: 120px ;
+        left: 430px ;
+        
+}
+
+.footer{ 
+        width: 100% ;
+        height: 350px ;
+        font-family: SF Pro Text;
+        font-style: normal;
+        float : none ;
+        background-image : url("images/Rectangle 65 (1).png") ;
+        background-size: 100% 100%;
+       
+}
+
+.container7{
+        margin-left: 5% ;
+        margin-right: 5% ;
+        margin-bottom: 75px ;
+        margin-top: 20px ;
+        height: 400px ;
+        background-image : url("images/Rectangle 65 (1).png") ;
+       
+}
+
+.footersection1{ 
+        width: 40% ;
+        height: 305px ;
+        float: left ;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #F5F7FA;
+        
+}
+
+.footersection2{
+        width: 30% ;
+        height: 305px ;
+        float: left ;
+        position: relative ;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #F5F7FA;
+}
+
+.footersection3{
+        width: 30% ;
+        height: 305px ;
+        float: left ;
+        position: relative ;
+}
+
+.subfooter1{
+        width: 280px ;
+        height:305px ;
+        color: #F5F7FA;
+        padding-left: 70px ;
+        padding-top: 70px ;
+        
+}
+
+.subfooter2{
+        
+        color: #F5F7FA;
+        padding-left: 30px ;
+        padding-top: 50px ;
+        
+}
+
+.contact {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+}
+
+.socialcontainer {
+        position:relative
+}
+
+.image9{
+        position: relative ;
+        top: 0;
+        left: 0;
+}
+
+.image10{
+        position: absolute;      
+        left: 50px ;
+}
+
+.image11{
+        position: absolute;      
+        left: 100px ;
+}
+
+.image12{
+        position: absolute;      
+        left: 150px ;
+}
+
+.footerstorecontainer{
+        
+        padding-top: 20px ;
+}
+
+h1 {
+        font-family: SF Pro Text;
+        font-style: normal;
+        font-weight: bold;
+        color: #1F2933;
+}
+
+.subcontainer10{
+        padding-top : 80px ;
+        font-family: SF Pro Text;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 40px;
+        color: #1F2933;
+}
+
+.block1{
+        width: 300px;
+        font-family: SF Pro Text;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 28px;
+}
+
+.container9{
+        height: 500px ;
+        box-sizing: border-box ;
+        margin :0px ;
+        padding : 0px ;
+}
+
+.container31 {
+        height : 700px ;
+}
+
+.subsection {
+       padding-top: 100px ;
+       padding-left :121px ;
+}
+
+
+.headerName1 {
+       width : 100px ;
+       float : left ;
+       position : relative ;
+       font-weight : bold ;
+       left : 10px ;
+       font-size :22px ;
+}
+
+.headerName {
+       width : 100px ;
+       float : left ;
+       position : relative ;
+       font-weight : bold ;
+       left : 10px ;
+       font-size :20px ;
+}
+
+.image14{
+        top: 250px ;
+        position: absolute ;
+        padding-top : 100 ;
+        left: 50px ;
+        
+}
+
+.image15{
+        position: absolute ;
+        top: 430px ;
+        left: 200px ;
+        
+}
+
+.image16{
+        position: absolute ;
+        top: 400px ;
+        left: 100px ;
+        
+}
+
+.subsphere {
+        float : left ;
+        position: relative ;
+        
+}
+
+
+.mobilesection {
+       display: none ;
+}
+
+.mobilecontainer1 {
+       display: none ;
+}
+
+.mobilesectionone {
+       box-sizing: border-box ;
+       height:1300px ;
+       margin :0px ;
+       padding : 0px ;
+}
+
+.mobilesectiontwo {
+       box-sizing: border-box ;
+       height:700px ;
+       margin :0px ;
+       padding : 0px ;
+}
+
+.mobilesectionthree {
+       box-sizing: border-box ;
+       height:700px ;
+       margin :0px ;
+       padding : 0px ;
+}
+
+.mobilesectionfour {
+       box-sizing: border-box ;
+       height:700px ;
+       margin :0px ;
+       padding : 0px ;
+}
+
+.mobilesectionfive {
+       box-sizing: border-box ;
+       height:700px ;
+       margin :0px ;
+       padding : 0px ;
+}
+
+.mobilesection {
+       box-sizing: border-box ;
+       height:1000px ;
+       margin :0px ;
+       padding : 0px ;
+}
+
+.mobilecontainer1 {
+       box-sizing: border-box ;
+       height:1000px ;
+       margin :0px ;
+       padding : 0px ;
+}
+
+       
+
+
+.mobilesectionone {
+       display: none ;
+}
+
+.mobilesectiontwo {
+       display: none ;
+}
+
+.mobilesectionthree {
+       display: none ;
+}
+
+
+.mobilesectionfour {
+       display: none ;
+}
+
+
+.mobilesectionfive {
+       display: none ;
+}
+
+
+.mobilefooter {
+       display: none ;
+}
+
+.mobilecontainer3 {
+        box-sizing : border-box ;
+        margin :0px ;
+        padding : 0px ;
+        height:1200px ;
+        padding-top: 105px ;
+        padding-left : 50px ;
+        background-color: #FFFAFA ;
+}
+
+.mobilecontainer5{
+        box-sizing : border-box ;
+        margin :0px ;
+        padding : 0px ;        
+        height:700px ;        
+        padding-top : 100px ;
+        padding-left : 40px ;
+        position: relative ;
+}
+
+.mobilecontainer4{
+        box-sizing : border-box ;
+        margin :0px ;
+        padding : 0px ;        
+        height:400px ;        
+        padding-top : 50px ;
+        padding-left : 10px ;
+        position: relative ;
+}
+
+.mobilesubcontainer4{
+        box-sizing : border-box ;
+        margin :0px ;
+        padding : 0px ;        
+        height:500px ;        
+        padding-top : 50px ;
+        padding-left : 10px ;
+        position: relative ;
+}
+
+.mobilecontainer6{
+        box-sizing : border-box ;
+        margin :0px ;
+        padding : 0px ;        
+        height:1200px ;        
+        padding-top : 100px ;
+        position: relative ;
+}
+
+.mobilesubcontainer6{
+        
+        position: relative ;
+}
+
+
+
+.mobilecontainer6{ 
+     .image8 {
+        top: 550px ;
+        left: 100px ;
+}
+
+}
+
+
+.mobileblock {
+        width: 400px;
+        font-size: 22px;
+        line-height: 36px;
+        font-family: SF Pro Text;
+        font-style: normal;
+        font-weight: normal;
+        color: #1F2933;
+}
+
+.subheader1 {
+        width : 100% ; 
+}
+
+.container9 {
+        height : 420px ;
+        box-sizing: border-box ;
+        margin :0px ;
+        padding : 0px ;
+}
+
+.container31 {
+                    
+        height: 900px ;
+        float : left ;
+        box-sizing: border-box ;
+        margin :0px ;
+        padding : 0px ;
+}
+
+.logo1 {
+     display : none ;
+}
+
+.headerName1 {
+     display : none ;
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+
+.section {
+       display : none ;
+}
+
+
+.sectionone {
+       display : none ;
+}
+
+.sectiontwo {
+       display : none ;
+}
+
+footer {
+       display : none ;
+}
+
+
+.mobilesection {
+       display: inline ;
+       box-sizing: border-box ;
+       margin :0px ;
+       padding : 0px ;
+}
+
+.mobilecontainer1 {
+       display: inline ;
+       box-sizing: border-box ;
+       margin :0px ;
+       padding : 0px ;
+}
+.mobilesectionone {
+       display: inline ;
+       box-sizing: border-box ;
+       margin :0px ;
+       padding : 0px ;
+}
+
+.mobilesectiontwo {
+       display: inline ;
+       box-sizing: border-box ;
+       margin :0px ;
+       padding : 0px ;
+
+}
+
+.mobilesectionthree {
+       display: inline ;
+       box-sizing: border-box ;
+       margin :0px ;
+       padding : 0px ;
+
+}
+
+.mobilesectionfour {
+       display: inline ;
+       box-sizing: border-box ;
+       margin :0px ;
+       padding : 0px ;
+}
+
+.mobilesectionfive {
+       display: inline ;
+       box-sizing: border-box ;
+       margin :0px ;
+       padding : 0px ;
+}
+
+.mobilefooter {
+       display: inline ;
+       box-sizing: border-box ;
+       height:700px ;
+       margin :0px ;
+       padding : 0px ;
+} 
+
+.container7 {
+        height : 800px ;
+        margin-left: 5% ;
+        margin-right: 0%;
+}
+
+.subfooter1 {
+        height : 170px ;
+        padding-left:20px ;
+        padding-top : 30px ;
+}
+
+.subfooter2 {
+        padding-left :20px ;
+        padding-top : 10px ;
+       
+       
+}
+
+.footersection1 {
+        width : 100% ;
+        height : 200px ;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+}
+
+.footersection2{
+        width : 100% ;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        height :350px 
+}
+
+.footersection3 {
+        width : 100% ;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+}
+
+.contact { 
+        font-weight: 600;
+        font-size: 24px;
+}
+
+.subfooter2 > p{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+       
+       
+}
+
+
+body {
+      
+      box-sizing: border-box ;
+      margin :0px ;
+      padding : 0px ;
+}
+
+h1 {
+      width: 400px ;
+      font-size : 30px ;
+}
+
+.subcontainer10 {
+       padding-left : 10px ;
+       padding-top : 20px ;
+}
+
+.container1 {
+       height : 800px ;
+}
+
+.sphere {
+        height:500px;
+        width: 80% ;
+        top: -100px;
+        left: 100px ;
+        border-radius: 50% 0px 50% 50% ;
+        background-color: #FF0000 ;        
+        float : left ;
+        position : absolute  ;
+
+}
+
+
+.block1 {
+        width : 500px ;
+        font-size : 22px ;
+        line-height : 36px ;
+}
+
+.image14{
+        top: 100px ;
+        position: absolute ;
+        padding-top : 100 ;
+        left: 50px ;
+        
+}
+
+.image15{
+        position: absolute ;
+        top: 200px ;
+        left: 200px ;
+        
+}
+
+.image16{
+        position: absolute ;
+        top: 230px ;
+        left: 100px ;
+        
+}
+
+.mobilecontainer6{ 
+     .image8 {
+        top: 450px ;
+        left: 100px ;
+}
+
+}
+
+.logo1{
+     display : inline ;
+
+}
+
+.headerName1 {
+      display : inline ;
+      position : relative ;
+      padding-left : 70px ;
+}
+
+}
